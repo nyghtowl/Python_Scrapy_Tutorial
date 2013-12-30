@@ -32,8 +32,6 @@ def Deals(DeclarativeBase):
     title = Column('title', String)
     description = Column('description', String, nullable=True)
     location = Column('location', String, nullable=True)
-    category = Column('category', String, nullable=True)
-    original_price = Column('original_price', String, nullable=True)
     price = Column('price', String, nullable=True)
 
     

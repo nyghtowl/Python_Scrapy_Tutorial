@@ -7,7 +7,5 @@ class LivingSocialDeal(Item):
 
     title = Field()
     description = Field()
-    category = Field()
     location = Field()
-    original_price = Field()
     price = Field()
