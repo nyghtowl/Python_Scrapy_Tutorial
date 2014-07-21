@@ -22,7 +22,7 @@ def create_deals_table(engine):
 
     DeclarativeBase.metadata.create_all(engine)
 
-def Deals(DeclarativeBase):
+class Deals(DeclarativeBase):
     """
     Sqlalchemy deals model
     """
