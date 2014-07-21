@@ -1,1 +1,0 @@
-from scraper_app import models
